@@ -1,14 +1,14 @@
-import './App.css';
-import About from './About';
-import Footer from './Footer';
 import Header from './Header';
-import Home from './Home';
-import Missing from './Missing';
 import Nav from './Nav';
-import NewPost from './NewPost';
+import Home from './Home';
 import PostPage from './PostPage';
-import { Route, Routes } from 'react-router-dom';
+import NewPost from './NewPost';
 import EditPost from './EditPost';
+import About from './About';
+import Missing from './Missing';
+import Footer from './Footer';
+
+import { Route, Routes } from 'react-router-dom';
 import { DataProvider } from './context/DataContext';
 
 function App() {
